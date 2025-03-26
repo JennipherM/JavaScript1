@@ -1,7 +1,8 @@
 //display alert "good afternoon"
 window.alert("Good afternoon")
 
-//declare the variable to hole the div element
+//declares a variable called container = finds the element in the HTML file that contains the id "container"
+//let replaces a data type, instead of string container, it is let container
 let container = document.getElementById("container");
 
 //getElementID is the method to locate the element by the ID
@@ -15,7 +16,12 @@ container.style.color = "red";
 
 document.write("<p>This is a new paragraph</p>");
 
-//declare a variable to hold header
+//declare a variables to hold header and footer
+/*
+    getElementById finds a specific element with the specified ID, above it it finding one specific element with the id "container"
+    getElementsByTagName finds every element with the specified tag, below it is finding each element that is an h1
+*/
+
 let header = document.getElementsByTagName("h1")[0];
 let footer = document.getElementsByTagName("h1")[1];
 
